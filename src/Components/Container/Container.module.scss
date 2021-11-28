@@ -1,0 +1,11 @@
+@import "../../style_vars/vars.scss";
+
+.Container {
+  color: $text_color;
+  width: 1200px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
